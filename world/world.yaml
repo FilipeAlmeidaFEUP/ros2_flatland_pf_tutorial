@@ -1,0 +1,19 @@
+properties: {}
+layers:
+  - name: "collisions_layer"
+    map: "hallway.yaml"
+    color: [1.0, 1.0, 1.0, 1]
+  - name: ["end_beacon_layer", "end_laser_layer"]
+    map: "empty.yaml"
+    color: [1.0, 1.0, 1.0, 1]
+models:
+  - name: serp1
+    model: "serp1.model.yaml"
+    pose: [-0.15, 0.0, 1.57079632679]
+  - name: serp2
+    model: "serp2.model.yaml"
+    pose: [0.15, 0.0, 1.57079632679]
+  - name: end_beacon
+    model: "end_beacon.model.yaml"
+    pose: [0.0, 1.8, 0.0]
+  
