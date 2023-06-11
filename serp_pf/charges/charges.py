@@ -30,7 +30,7 @@ class Vector:
     def __truediv__(self, value): return Vector(self.x / value, self.y / value)
 
     # Returns magnitude of the vector
-    def magnitude(self): return sqrt ((self.x ** 2) + (self.x ** 2))
+    def magnitude(self): return sqrt ((self.x ** 2) + (self.y ** 2))
 
 # A position in 2D space, point(x, y) and rotation
 class Position: 
