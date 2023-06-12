@@ -125,11 +125,11 @@ APF is used for robot path planning by determining, at any point on the map, whe
 
 ### Placing charges on the map
 
-For to get the APF to work, it's necessary to define where the charges need to be placed and how they interact with the robots. Depending on shape of the obstacle, the electric field produced will be different. For this map, three different types of charges were created:
+For APF to work, it's necessary to define where the charges need to be placed and how they interact with the robots. Depending on shape of the obstacle, the electric field produced will be different. For this map, three different types of charges were created:
 
 - Point Charge
 - Line Segment Charge
-- Composit Charge
+- Composite Charge
 
 These types of charges are represented by python classes in the file [charges.py](serp_pf/charges/charges.py).
 
@@ -180,15 +180,15 @@ These Line Segments Charges are the ones used to represent the walls of the map:
 
 ![PF line segment charge](images/pf_linesegments.png)
 
-#### Composit Charge
+#### Composite Charge
 
 A charge represented by:
 - a set of Line Segment Charges and Point Charges
 - an intensity
 
-For any point in space P and composit charge C the Force in P is determined by only one of the charges contained in C. If P is in one of the zones affected by one of the line segments, then that line segment is the charge that determines the force. If not, It is determined by the closest point charge.
+For any point in space P and composite charge C the Force in P is determined by only one of the charges contained in C. If P is in one of the zones affected by one of the line segments, then that line segment is the charge that determines the force. If not, It is determined by the closest point charge.
 
-The following figure represents the only composit charge contained in the map on the left and how it affects points in space on the right.
+The following figure represents the only composite charge contained in the map on the left and how it affects points in space on the right.
 
 ![PF line segment charge](images/pf_composit_c.png)
 
