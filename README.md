@@ -33,6 +33,8 @@ At this point, if no errors occur, you should be seeing the following world:
 
 ![PF world](images/world.png)
 
+![PF world](images/world.gif)
+
 Just like in the RL tutorial, the start is in one end of the hallway target position is on the other, but now there are two robots travelling side by side. Collisions or reaching the end, will reset the environment and switch the starting and target positions.
 
 The main difference is the yay the robot is deciding where to move at any point. Instead of using RL algorithm to decide, it's using the Artificial Potential Fields algorithm. More on this in [this section](#artificial-potential-fields).
