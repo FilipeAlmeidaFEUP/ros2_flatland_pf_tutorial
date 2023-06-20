@@ -243,7 +243,7 @@ The angle of the force on each robot determines the direction they need to be mo
 
 ### Limitations of APF
 
-At first glance, the APF algorith might look better than using RL, since it was able to perfectly perform a task without requiring any training. This is why it is important to recognize a major issue with APF: it requires perfect knowledge of the map, robots positions ant the target location. 
+At first glance, the APF algorith might look better than using RL, since it was able to perfectly perform a task without requiring any training. This is why it is important to recognize a major issue with APF: it requires perfect knowledge of the map, robots positions and the target location. 
 
 A RL agent can train in a map and then be placed in a new one and, if the new map shares some features with the one he trained in, he might be able to still perform the task.
 
