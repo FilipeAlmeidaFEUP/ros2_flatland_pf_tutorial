@@ -37,7 +37,7 @@ At this point, if no errors occur, you should be seeing the following world:
 
 Just like in the RL tutorial, the start is in one end of the hallway and the target position is on the other, but now there are two robots travelling side by side. Collisions or reaching the end, will reset the environment and switch the starting and target positions.
 
-The main difference is the yay the robot is deciding where to move at any point. Instead of using RL algorithm to decide, it's using the Artificial Potential Fields algorithm. More on this in [this section](#artificial-potential-fields).
+The main difference is the way the robot is deciding where to move at any point. Instead of using RL algorithm to decide, it's using the Artificial Potential Fields algorithm. More on this in [this section](#artificial-potential-fields).
 
 ## New Flatland and ROS 2 setup
 
