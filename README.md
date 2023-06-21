@@ -216,7 +216,7 @@ The following image ilustrates these steps.
 
 ![PF line segment charge](images/find_target_p.png)
 
-In this to new poits found, we can create Tension Points. Tension Points work exactly like Point Charges but the magnitude of the force is calculated by Hooke's law (used for spring extension) instead:
+In this to new points found, we can create Tension Points. Tension Points work exactly like Point Charges but the magnitude of the force is calculated by Hooke's law (used for spring extension) instead:
 
 $$F = kr$$
 
