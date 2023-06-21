@@ -47,7 +47,7 @@ This package is very similar to the one on the [previous tutorial](https://githu
 
 In your python code, you can import any module that you would be able to import in any other python project. You can also import modules from local files on your own machine but that will take a few extra steps to work in ROS 2. 
 
-First you need to add the folder of the module to the folder of the controller python code (which is the folder with the same name as the package; [example in this package](serp_pf/)). Each new folder also needs to contain a file called \_\_init\_\_.py, which can be left empty or used as a regular python file. Your code folder should look like something this:
+First you need to add the folder of the module to the folder of the controller python code (which is the folder with the same name as the package; [example in this package](serp_pf/)). Each new folder also needs to contain a file called \_\_init\_\_.py, which can be left empty or used as a regular python file. Your code folder should look something like this:
 
 ```
 ├── <ros_package_name>
