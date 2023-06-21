@@ -226,7 +226,7 @@ Where:
 
 Opposed to Coulomb's law, the larger the distance, the greater the force.
 
-To determine the force in each robot, in the point wherre the robot is:
+To determine the force in each robot in the point where the robot is:
 - Add the forces from all the wall charges.
 - Add force from a negative charge in the position of the other robot. This is to avoid collisions between them.
 - Add the force from the newly found Tension points.
